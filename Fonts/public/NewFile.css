@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'PottaOne';
+	src: url(./fonts/PottaOne.ttf)
+}
+
+@font-face {
+	font-family: 'YuseiMagic';
+	src: url(./fonts/YuseiMagic.ttf)
+}
+
+.Potta {
+	font-family: 'PottaOne';
+	text-align: center;
+	color: yellow;
+	display: inline-block;
+	box-sizing: content-box;
+	width: 60%;
+	height: 50%;
+	background-color: blue;
+}
+
+p.leftBOX {
+	display: inline-block;
+	box-sizing: content-box;
+	width: 20%;
+	height: 50%;
+	text-align: justify;
+	background-color: #2d572c;
+	font-family: 'Coda Caption';
+	font-size: x-small;
+	box-sizing: content-box;
+	position: relative;
+	bottom: 22.5px;
+}
+
+p.rightTEXT {
+	display: inline;
+	font-family: 'Coda Caption';
+	background-color: black;
+	color: yellow;
+	line-height: 2.5;
+	font-size: x-small;
+}
+
+div.container {
+	position: relative;
+	box-sizing: content-box;
+	width: 70%;
+	height: 30%;
+	display: inline-block;
+	bottom: 10px;
+}
+
+hr.uncoloredHR {
+	width: 65%;
+	top: 5px;
+	position: relative;
+}
+
+hr.bigHR {
+	background-color: blue;
+	height: 15px;
+	width: 70%;
+	position: relative;
+	right: 15%;
+	bottom: 25px;
+	position: relative;
+}
+
+hr.secondbigHR {
+	background-color: blue;
+	height: 15px;
+	width: 70%;
+	position: relative;
+	right: 15%;
+	position: relative;
+	bottom: 85px;
+}
+
+p.p3 {
+	font-family: 'Coda Caption';
+	line-height: 2;
+	font-size: small;
+	display: inline-block;
+	box-sizing: content-box;
+	width: 90%;
+	height: 50%;
+	bottom: 50px;
+	position: relative;
+}
+
+hr.seconduncoloredHR {
+	width: 45%;
+	bottom: 75px;
+	position: relative;
+	right: 2.65%;
+}
+
+p.p4 {
+	font-family: 'YuseiMagic';
+	font-weight: bold;
+}
+div.p4{
+	position:relative;
+	bottom: 100px;
+	display: inline-block;
+	box-sizing: content-box;
+	width: 89%;
+}
